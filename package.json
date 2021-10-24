@@ -1,5 +1,5 @@
 {
-    "name": "website-screenshot-cli",
+    "name": "website-screenshots-cli",
     "version": "0.0.1",
     "description": "Take a screenshot of a website and saves it as a file.",
     "main": "index.js",
@@ -7,9 +7,13 @@
         "test": "echo \"Error: no test specified\" && exit 1"
     },
     "bin": {
-        "website-screenshot": "./index.js"
+        "website-screenshots": "./index.js"
     },
-    "author": "Take a screenshot of a website and saves it as a file.",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/kuukienator/website-screenshots.git"
+    },
+    "author": "Emmanuel Meinike <emmanuel.meinike@gmail.com>",
     "license": "MIT",
     "dependencies": {
         "commander": "^8.3.0",
