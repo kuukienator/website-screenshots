@@ -2,6 +2,12 @@
 
 Take a screenshot of a website and saves it as a file.
 
+## Install
+
+```sh
+npm i -g website-screenshots-cli
+```
+
 ## Usage
 
 ```bash

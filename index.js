@@ -43,7 +43,6 @@ const getFileName = (imageFormat, preset = DEFAULT_PRESET, name) => {
 };
 
 const getFilePath = (name, outputPath) => {
-    console.log('getFilePath', name, outputPath);
     return outputPath ? path.resolve(outputPath, name) : name;
 };
 
