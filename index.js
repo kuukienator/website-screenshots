@@ -108,7 +108,7 @@ const takeScreenShot = async ({
 
 const runTasks = async (tasks, takeScreenShot) => {
     if (tasks.length === 0) {
-        console.log('Done!');
+        console.log('Done! Have a nice day. 👋😃');
         return;
     }
 
@@ -121,8 +121,9 @@ const runTasks = async (tasks, takeScreenShot) => {
 (async () => {
     const program = new Command();
     program
+        .name('website-screenshots')
         .description('Take a screenshot of a website and saves it as a file.')
-        .version('0.0.1')
+        .version('0.0.4')
         .requiredOption('-u, --url <url>', 'a url to screenshot')
         .option('-f, --fullPage', 'capture full page', false)
         .option('-d, --dark', 'use dark mode, if available', false)
