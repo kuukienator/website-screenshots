@@ -14,7 +14,7 @@ Run `website-screenshots -u <url>` to capture a screenshot in fhd (1920x1080), i
 
 ## Usage
 
-```bash
+```sh
 Usage: website-screenshots [options]
 
 Take a screenshot of a website and saves it as a file.
@@ -27,8 +27,8 @@ Options:
   -n --name <name>          optional name for file
   -a, --all                 capture for all presets (default: false)
   -o, --output <path>       path where to save images
-  -p, --preset <name>       resolution preset (choices: "iphone11", "pixel2", "galaxy", "4k", "wqhd", "fhd", default:
-                            "fhd")
+  -p, --preset <name>       resolution preset (choices: "iphone11", "iphoneSE", "pixel2", "ipadPro", "ipad", "4k",
+                            "wqhd", "fhd", default: "fhd")
   -i, --imageFormat <name>  image format (choices: "png", "jpeg", default: "png")
   -h, --help                display help for command
 ```

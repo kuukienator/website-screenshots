@@ -1,6 +1,6 @@
 {
     "name": "website-screenshots-cli",
-    "version": "0.0.6",
+    "version": "0.0.7",
     "description": "Take a screenshot of a website and saves it as a file.",
     "main": "index.js",
     "scripts": {
