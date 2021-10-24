@@ -11,6 +11,8 @@ npm i -g website-screenshots-cli
 ## Usage
 
 ```bash
+Usage: website-screenshots [options]
+
 Take a screenshot of a website and saves it as a file.
 
 Options:
