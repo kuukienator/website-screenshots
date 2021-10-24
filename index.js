@@ -9,13 +9,21 @@ const PRESETS = {
         isMobile: true,
         device: puppeteer.devices['iPhone 11'],
     },
+    iphoneSE: {
+        isMobile: true,
+        device: puppeteer.devices['iPhone SE'],
+    },
     pixel2: {
         isMobile: true,
         device: puppeteer.devices['Pixel 2'],
     },
-    galaxy: {
+    ipadPro: {
         isMobile: true,
-        device: puppeteer.devices['Galaxy S9+'],
+        device: puppeteer.devices['iPad Pro'],
+    },
+    ipad: {
+        isMobile: true,
+        device: puppeteer.devices['iPad'],
     },
     '4k': {
         isMobile: false,
@@ -123,7 +131,7 @@ const runTasks = async (tasks, takeScreenShot) => {
     program
         .name('website-screenshots')
         .description('Take a screenshot of a website and saves it as a file.')
-        .version('0.0.4')
+        .version('0.0.6')
         .requiredOption('-u, --url <url>', 'a url to screenshot')
         .option('-f, --fullPage', 'capture full page', false)
         .option('-d, --dark', 'use dark mode, if available', false)
