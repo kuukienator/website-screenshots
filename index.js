@@ -131,7 +131,7 @@ const runTasks = async (tasks, takeScreenShot) => {
     program
         .name('website-screenshots')
         .description('Take a screenshot of a website and saves it as a file.')
-        .version('0.0.7')
+        .version('1.0.0')
         .requiredOption('-u, --url <url>', 'a url to screenshot')
         .option('-f, --fullPage', 'capture full page', false)
         .option('-d, --dark', 'use dark mode, if available', false)
